@@ -4,9 +4,9 @@ import ServicePageLayout from '@/components/ui/ServicePageLayout'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Companionship & Domestic Support | Home Care Nottinghamshire',
+  title: 'Companionship & Domestic Support | Home Care Nottinghamshire & Derbyshire',
   description:
-    'Companionship and domestic support from DeltaEcho Care in Nottinghamshire. Friendly visits, social engagement, housework, shopping, and community access for older people.',
+    'Companionship and domestic support from DeltaEcho Care across Nottinghamshire and Derbyshire. Friendly visits, social engagement, housework, shopping, and community access for older people.',
   keywords: ['companionship care Nottingham', 'domestic support Nottinghamshire', 'home help Nottingham', 'social care visits Nottinghamshire', 'help at home Nottingham'],
   alternates: {
     canonical: `${SITE_CONFIG.url}/services/companionship-domestic-support`,

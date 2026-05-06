@@ -4,9 +4,9 @@ import ServicePageLayout from '@/components/ui/ServicePageLayout'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Respite Care in Nottinghamshire',
+  title: 'Respite Care across Nottinghamshire and Derbyshire',
   description:
-    'Respite care from DeltaEcho Care in Nottinghamshire — giving family carers a planned break while their loved one receives expert, compassionate care at home.',
+    'Respite care from DeltaEcho Care across Nottinghamshire and Derbyshire — giving family carers a planned break while their loved one receives expert, compassionate care at home.',
   keywords: ['respite care Nottingham', 'respite care Nottinghamshire', 'carer break Nottingham', 'short-term care Nottinghamshire'],
   alternates: {
     canonical: `${SITE_CONFIG.url}/services/respite-care`,
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function RespiteCarePage() {
   return (
     <ServicePageLayout
-      title="Respite Care in Nottinghamshire"
+      title="Respite Care across Nottinghamshire and Derbyshire"
       subtitle="A well-earned break for family carers — with expert, compassionate care stepped in so you can rest, recharge, and return refreshed."
       badge="Respite Care"
       breadcrumbs={[

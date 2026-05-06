@@ -5,18 +5,20 @@ import CTASection from '@/components/ui/CTASection'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Areas We Cover | Home Care Nottinghamshire',
+  title: 'Areas We Cover | Home Care Nottinghamshire & Derbyshire',
   description:
-    'DeltaEcho Care Ltd provides home care across Nottinghamshire including Nottingham, Beeston, Stapleford, Long Eaton, West Bridgford, Hucknall, and surrounding areas.',
+    'DeltaEcho Care Ltd provides home care across Derby city, Ilkeston, Belper, Ripley, Alfreton, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, Heanor, Borrowash, Draycott, and surrounding areas.',
   keywords: [
-    'home care Nottinghamshire',
-    'home care Nottingham',
-    'home care Beeston',
-    'home care Stapleford',
-    'home care West Bridgford',
+    'home care Derby city',
+    'home care Ilkeston',
+    'home care Belper',
+    'home care Ripley',
+    'home care Alfreton',
+    'home care Kirkby in Ashfield',
+    'home care Sutton in Ashfield',
     'home care Long Eaton',
-    'care at home Nottingham',
-    'domiciliary care Nottinghamshire',
+    'home care Heanor',
+    'domiciliary care Derbyshire',
   ],
   alternates: {
     canonical: `${SITE_CONFIG.url}/areas-we-cover`,
@@ -28,7 +30,7 @@ export default function AreasCoveredPage() {
     <>
       <PageHero
         title="Areas We Cover"
-        subtitle="We provide home care services across a wide area of Nottinghamshire, from our base in Stapleford. If you're not sure whether we cover your area, please ask — we're always happy to help."
+        subtitle="We provide home care services across Derby city, Ilkeston, Belper, Ripley, Alfreton, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, Heanor, Borrowash, Draycott, and nearby communities from our base in Stapleford. If you're not sure whether we cover your area, please ask — we're always happy to help."
         breadcrumbs={[{ name: 'Areas We Cover', href: '/areas-we-cover' }]}
       />
 
@@ -37,13 +39,12 @@ export default function AreasCoveredPage() {
         <div className="container-wide">
           <div className="mx-auto max-w-3xl">
             <h2 className="section-title mb-6 text-center">
-              Serving Nottinghamshire Families
+              Serving Local Families Across Our Coverage Area
             </h2>
             <div className="space-y-4 text-gray-700 leading-relaxed text-center">
               <p>
                 DeltaEcho Care Ltd is based in Stapleford, Nottingham (NG9), and provides home care
-                services to a wide area across Nottinghamshire. We cover much of the Greater
-                Nottingham area and surrounding towns and villages.
+                services across Derby city, Ilkeston, Belper, Ripley, Alfreton, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, Heanor, Borrowash, Draycott, and surrounding communities.
               </p>
               <p>
                 Our local knowledge means we understand the communities we serve — and our proximity
@@ -66,8 +67,7 @@ export default function AreasCoveredPage() {
             </h2>
             <div className="space-y-4 text-gray-400 leading-relaxed">
               <p>
-                As a locally-based provider, we are genuinely embedded in the Nottinghamshire
-                community. Our carers live and work in the same areas as the people they support —
+                As a locally-based provider, we are genuinely embedded in the local community. Our carers live and work in the same areas as the people they support —
                 which means faster response times, better continuity, and a team that truly
                 understands local services and resources.
               </p>

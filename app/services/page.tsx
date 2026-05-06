@@ -11,7 +11,7 @@ import { SITE_CONFIG } from '@/lib/constants'
 export const metadata: Metadata = {
   title: 'Home Care Services',
   description:
-    'Explore all home care services offered by DeltaEcho Care Ltd in Nottinghamshire — personal care, live-in care, dementia care, respite, end-of-life care, and more.',
+    'Explore all home care services offered by DeltaEcho Care Ltd across Nottinghamshire and Derbyshire — personal care, live-in care, dementia care, respite, end-of-life care, and more.',
   alternates: {
     canonical: `${SITE_CONFIG.url}/services`,
   },

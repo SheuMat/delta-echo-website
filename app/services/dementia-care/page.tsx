@@ -4,9 +4,9 @@ import ServicePageLayout from '@/components/ui/ServicePageLayout'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Dementia Care at Home | Nottinghamshire',
+  title: 'Dementia Care at Home | Nottinghamshire & Derbyshire',
   description:
-    'Specialist dementia care at home in Nottinghamshire from DeltaEcho Care. Trained carers providing person-centred support for people living with Alzheimer\'s and other dementias.',
+    'Specialist dementia care at home across Nottinghamshire and Derbyshire from DeltaEcho Care. Trained carers providing person-centred support for people living with Alzheimer\'s and other dementias.',
   keywords: ['dementia care Nottingham', 'dementia care Nottinghamshire', 'Alzheimer\'s care at home Nottingham', 'specialist dementia carer Nottinghamshire'],
   alternates: {
     canonical: `${SITE_CONFIG.url}/services/dementia-care`,

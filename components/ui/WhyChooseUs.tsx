@@ -67,7 +67,7 @@ interface WhyChooseUsProps {
 
 export default function WhyChooseUs({
   title = 'Why Families Choose DeltaEcho Care',
-  subtitle = 'Choosing a care provider is one of the most important decisions you\'ll ever make. Here\'s why families across Nottinghamshire trust us.',
+  subtitle = 'Choosing a care provider is one of the most important decisions you\'ll ever make. Here\'s why families across our local coverage area and Derbyshire trust us.',
 }: WhyChooseUsProps) {
   return (
     <section className="section-padding bg-white" aria-labelledby="why-heading">

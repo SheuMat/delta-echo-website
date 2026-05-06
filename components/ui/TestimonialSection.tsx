@@ -5,19 +5,19 @@ const testimonials = [
     quote:
       "The team at DeltaEcho Care have been absolutely wonderful with my mother. They're punctual, professional, and genuinely kind. She's much more settled now and we feel confident she's in safe hands.",
     author: 'Sarah T.',
-    relation: 'Daughter of service user, Beeston',
+    relation: 'Daughter of service user, Ilkeston',
   },
   {
     quote:
       "Finding the right care for Dad after his stroke was daunting, but DeltaEcho Care made the whole process easy. The care plan is exactly what he needed and the carer has been brilliant — patient and understanding.",
     author: 'Michael R.',
-    relation: 'Son of service user, West Bridgford',
+    relation: 'Son of service user, Long Eaton',
   },
   {
     quote:
       "I can't recommend them highly enough. The respite care they provided gave me the chance to recharge. Knowing Mum was looked after properly meant everything to me. Thank you so much.",
     author: 'Janet M.',
-    relation: 'Family carer, Arnold',
+    relation: 'Family carer, Ripley',
   },
 ]
 
@@ -28,7 +28,7 @@ interface TestimonialSectionProps {
 
 export default function TestimonialSection({
   title = 'What Families Say About Us',
-  subtitle = 'Read what families across Nottinghamshire say about the care and support they\'ve received.',
+  subtitle = 'Read what families across our local coverage area and Derbyshire say about the care and support they\'ve received.',
 }: TestimonialSectionProps) {
   return (
     <section className="section-padding bg-cream" aria-labelledby="testimonials-heading">

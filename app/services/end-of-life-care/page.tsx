@@ -4,9 +4,9 @@ import ServicePageLayout from '@/components/ui/ServicePageLayout'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'End-of-Life Care at Home | Nottinghamshire',
+  title: 'End-of-Life Care at Home | Nottinghamshire & Derbyshire',
   description:
-    'Compassionate end-of-life care at home in Nottinghamshire from DeltaEcho Care. Supporting people and families during life\'s final chapter with dignity, respect, and gentle care.',
+    'Compassionate end-of-life care at home across Nottinghamshire and Derbyshire from DeltaEcho Care. Supporting people and families during life\'s final chapter with dignity, respect, and gentle care.',
   keywords: ['end of life care Nottingham', 'palliative care at home Nottinghamshire', 'end of life care Nottinghamshire', 'terminal care at home Nottingham'],
   alternates: {
     canonical: `${SITE_CONFIG.url}/services/end-of-life-care`,

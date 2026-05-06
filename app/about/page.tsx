@@ -9,13 +9,13 @@ import { SITE_CONFIG } from '@/lib/constants'
 export const metadata: Metadata = {
   title: 'About Us',
   description:
-    'Learn about DeltaEcho Care Ltd — a CQC-registered home care provider in Nottinghamshire. Meet our team, understand our values, and learn why families trust us.',
+    'Learn about DeltaEcho Care Ltd — a CQC-registered home care provider across Nottinghamshire and Derbyshire. Meet our team, understand our values, and learn why families trust us.',
   alternates: {
     canonical: `${SITE_CONFIG.url}/about`,
   },
   openGraph: {
-    title: 'About DeltaEcho Care Ltd | Home Care Nottinghamshire',
-    description: 'Learn about our story, our registered manager, and our person-centred approach to home care in Nottinghamshire.',
+    title: 'About DeltaEcho Care Ltd | Home Care Nottinghamshire & Derbyshire',
+    description: 'Learn about our story, our registered manager, and our person-centred approach to home care across Nottinghamshire and Derbyshire.',
   },
 }
 
@@ -51,7 +51,7 @@ export default function AboutPage() {
     <>
       <PageHero
         title="About DeltaEcho Care Ltd"
-        subtitle="We are a local, independent home care provider committed to delivering compassionate, high-quality support to people across Nottinghamshire."
+        subtitle="We are a local, independent home care provider committed to delivering compassionate, high-quality support to people across Nottinghamshire and Derbyshire."
         breadcrumbs={[{ name: 'About Us', href: '/about' }]}
         badge="CQC Registered"
         imageSrc="/images/care-team.png"
@@ -73,7 +73,7 @@ export default function AboutPage() {
                 <p>
                   DeltaEcho Care Ltd is a CQC-registered domiciliary care provider based in Stapleford,
                   Nottingham. We were founded with one clear purpose: to provide genuinely excellent,
-                  person-centred home care to people across Nottinghamshire.
+                  person-centred home care to people across Nottinghamshire and Derbyshire.
                 </p>
                 <p>
                   We believe that people should be able to live safely, comfortably, and independently in
@@ -83,8 +83,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   As a local, independent provider, we are genuinely invested in our community. We are not
-                  a national franchise — we are a Nottinghamshire team, caring for Nottinghamshire
-                  families.
+                  a national franchise — we are a local care team, caring for families across our coverage area.
                 </p>
               </div>
             </div>
@@ -106,7 +105,7 @@ export default function AboutPage() {
                 { label: 'CQC Registered', sub: 'Meeting national quality standards', value: 'CQC' },
                 { label: 'Local Team', sub: 'Based in Stapleford, NG9', value: 'NG9' },
                 { label: 'Services Offered', sub: 'From personal care to live-in', value: '14+' },
-                { label: 'Areas Covered', sub: 'Across Nottinghamshire', value: '25+' },
+                { label: 'Areas Covered', sub: 'Across listed local areas', value: '11' },
               ].map((stat) => (
                 <div
                   key={stat.label}

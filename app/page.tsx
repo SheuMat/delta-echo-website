@@ -26,9 +26,9 @@ import AreaCoverageSection from '@/components/ui/AreaCoverageSection'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Compassionate Home Care in Nottinghamshire | DeltaEcho Care Ltd',
+  title: 'Compassionate Home Care Across Nottinghamshire & Derbyshire | DeltaEcho Care Ltd',
   description:
-    'DeltaEcho Care Ltd — CQC-registered home care in Nottinghamshire. Personal care, live-in care, dementia support, respite, and more. Call 07883 024345 today.',
+    'DeltaEcho Care Ltd — CQC-registered home care across Nottinghamshire and Derbyshire. Personal care, live-in care, dementia support, respite, and more. Call 07883 024345 today.',
   alternates: {
     canonical: SITE_CONFIG.url,
   },
@@ -129,7 +129,7 @@ export default function HomePage() {
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-teal-400/30 bg-teal-500/20 px-4 py-2 backdrop-blur-sm">
               <Shield className="h-4 w-4 text-teal-300" aria-hidden="true" />
               <span className="text-sm font-semibold text-teal-200 uppercase tracking-wide">
-                CQC Registered · Nottinghamshire
+                CQC Registered · Nottinghamshire & Derbyshire
               </span>
             </div>
 
@@ -138,7 +138,7 @@ export default function HomePage() {
               id="hero-heading"
               className="font-heading text-4xl font-bold text-white leading-tight md:text-5xl lg:text-6xl xl:text-7xl text-balance"
             >
-              Compassionate Home Care in Nottinghamshire,{' '}
+              Compassionate Home Care Across Nottinghamshire & Derbyshire,{' '}
               <span className="text-teal-300">Built Around You</span>
             </h1>
 

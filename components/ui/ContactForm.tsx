@@ -211,7 +211,7 @@ export default function ContactForm() {
             value={formData.location}
             onChange={handleChange}
             className={fieldClass('location')}
-            placeholder="e.g. Beeston, Nottingham"
+            placeholder="e.g. Ilkeston, Derbyshire"
           />
         </div>
 

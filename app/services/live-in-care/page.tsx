@@ -4,9 +4,9 @@ import ServicePageLayout from '@/components/ui/ServicePageLayout'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Live-in Care in Nottinghamshire',
+  title: 'Live-in Care across Nottinghamshire and Derbyshire',
   description:
-    'DeltaEcho Care provides professional live-in care in Nottinghamshire. A dedicated carer lives with you at home, providing 24-hour support — a genuine alternative to a care home.',
+    'DeltaEcho Care provides professional live-in care across Nottinghamshire and Derbyshire. A dedicated carer lives with you at home, providing 24-hour support — a genuine alternative to a care home.',
   keywords: ['live-in care Nottinghamshire', 'live in carer Nottingham', '24 hour care at home Nottinghamshire', 'live-in care Nottingham'],
   alternates: {
     canonical: `${SITE_CONFIG.url}/services/live-in-care`,
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function LiveInCarePage() {
   return (
     <ServicePageLayout
-      title="Live-in Care in Nottinghamshire"
+      title="Live-in Care across Nottinghamshire and Derbyshire"
       subtitle="A dedicated, professional carer lives with you in your own home — providing 24-hour support, companionship, and the freedom to stay where you belong."
       badge="Live-in Care"
       breadcrumbs={[

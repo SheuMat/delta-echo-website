@@ -19,10 +19,10 @@ export default function AreaCoverageSection({
         {showTitle && (
           <div className="text-center mb-12">
             <h2 id="areas-heading" className="section-title">
-              Areas We Cover in Nottinghamshire
+              Areas We Cover
             </h2>
             <p className="section-subtitle max-w-2xl mx-auto">
-              We provide home care services across a wide area of Nottinghamshire, centred around
+              We provide home care services across Derby city, Ilkeston, Belper, Ripley, Alfreton, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, Heanor, Borrowash, Draycott, and nearby communities, centred around
               our base in Stapleford, NG9. Not sure if we cover your area? Just ask.
             </p>
           </div>
@@ -32,13 +32,13 @@ export default function AreaCoverageSection({
         <div
           className="mb-10 flex h-64 items-center justify-center rounded-2xl bg-gradient-to-br from-navy-100 to-teal-100 ring-1 ring-teal-200 md:h-80"
           role="img"
-          aria-label="Map showing DeltaEcho Care coverage area in Nottinghamshire"
+          aria-label="Map showing DeltaEcho Care coverage area across Nottinghamshire and Derbyshire"
         >
           <div className="text-center">
             <MapPin className="mx-auto mb-3 h-10 w-10 text-teal-500" aria-hidden="true" />
-            <p className="text-sm font-medium text-navy-700">Nottinghamshire Coverage Map</p>
+            <p className="text-sm font-medium text-navy-700">Local Coverage Map</p>
             <p className="mt-1 text-xs text-gray-500">
-              Centred on Stapleford, NG9 — serving a wide radius across the county
+              Centred on Stapleford, NG9 — serving Derbyshire, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, and nearby towns
             </p>
             {/* Replace this div with a Google Maps embed or interactive map component */}
           </div>

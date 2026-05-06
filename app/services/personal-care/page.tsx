@@ -4,9 +4,9 @@ import ServicePageLayout from '@/components/ui/ServicePageLayout'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Personal Care at Home | Nottinghamshire',
+  title: 'Personal Care at Home | Nottinghamshire & Derbyshire',
   description:
-    'DeltaEcho Care provides dignified personal care at home in Nottinghamshire. Support with washing, dressing, continence care, and daily routines — tailored to you.',
+    'DeltaEcho Care provides dignified personal care at home across Nottinghamshire and Derbyshire. Support with washing, dressing, continence care, and daily routines — tailored to you.',
   keywords: ['personal care at home Nottinghamshire', 'personal care Nottingham', 'help with washing dressing Nottingham', 'domiciliary personal care Nottinghamshire'],
   alternates: {
     canonical: `${SITE_CONFIG.url}/services/personal-care`,

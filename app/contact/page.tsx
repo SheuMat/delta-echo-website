@@ -7,7 +7,7 @@ import { SITE_CONFIG } from '@/lib/constants'
 export const metadata: Metadata = {
   title: 'Contact Us | Request a Care Assessment',
   description:
-    'Get in touch with DeltaEcho Care Ltd in Nottinghamshire. Call 07883 024345 or complete our online form to request a free, no-obligation care assessment.',
+    'Get in touch with DeltaEcho Care Ltd across Nottinghamshire and Derbyshire. Call 07883 024345 or complete our online form to request a free, no-obligation care assessment.',
   alternates: {
     canonical: `${SITE_CONFIG.url}/contact`,
   },

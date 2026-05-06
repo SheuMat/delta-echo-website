@@ -37,7 +37,7 @@ export default function Footer() {
             </Link>
             <p className="text-sm leading-relaxed text-gray-400 mb-6">
               CQC-registered home care provider delivering compassionate, person-centred support
-              across Nottinghamshire. Helping people live safely and independently at home.
+              across Nottinghamshire and Derbyshire. Helping people live safely and independently at home.
             </p>
             <div className="inline-flex items-center gap-2 rounded-full border border-teal-500/40 bg-teal-500/10 px-4 py-2 shadow-lg shadow-teal-950/20">
               <Shield className="h-4 w-4 text-teal-400" />

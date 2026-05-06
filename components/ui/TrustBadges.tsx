@@ -13,7 +13,7 @@ const badges = [
   },
   {
     icon: MapPin,
-    label: 'Local Nottinghamshire Team',
+    label: 'Local Care Team',
     sub: 'Based in Stapleford, NG9',
   },
   {

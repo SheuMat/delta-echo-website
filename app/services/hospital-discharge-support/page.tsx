@@ -4,9 +4,9 @@ import ServicePageLayout from '@/components/ui/ServicePageLayout'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Hospital Discharge Support | Care at Home Nottinghamshire',
+  title: 'Hospital Discharge Support | Care at Home Nottinghamshire & Derbyshire',
   description:
-    'Hospital discharge support from DeltaEcho Care in Nottinghamshire. Safe, fast home care set up after hospital — preventing readmission and supporting recovery at home.',
+    'Hospital discharge support from DeltaEcho Care across Nottinghamshire and Derbyshire. Safe, fast home care set up after hospital — preventing readmission and supporting recovery at home.',
   keywords: ['hospital discharge support Nottinghamshire', 'hospital discharge care Nottingham', 'care after hospital Nottingham', 'reablement care Nottinghamshire'],
   alternates: {
     canonical: `${SITE_CONFIG.url}/services/hospital-discharge-support`,

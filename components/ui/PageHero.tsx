@@ -108,7 +108,7 @@ export default function PageHero({
             )}
 
             <div className="mt-7 flex flex-wrap gap-3 text-sm text-white/70">
-              {['CQC Registered', 'Local Nottinghamshire Team', 'No-obligation Advice'].map((item) => (
+              {['CQC Registered', 'Local Care Team', 'No-obligation Advice'].map((item) => (
                 <span key={item} className="inline-flex items-center gap-1.5">
                   <CheckCircle className="h-4 w-4 text-teal-300" aria-hidden="true" />
                   {item}
