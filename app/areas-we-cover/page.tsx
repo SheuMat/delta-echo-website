@@ -7,7 +7,7 @@ import { SITE_CONFIG } from '@/lib/constants'
 export const metadata: Metadata = {
   title: 'Areas We Cover | Home Care Nottinghamshire & Derbyshire',
   description:
-    'DeltaEcho Care Ltd provides home care across Derby city, Ilkeston, Belper, Ripley, Alfreton, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, Heanor, Borrowash, Draycott, and surrounding areas.',
+    'DeltaEcho Care Ltd provides home care across Derby city, Ilkeston, Belper, Ripley, Alfreton, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, Heanor, Borrowash, Draycott, Nottingham, Hucknall, Beeston, West Bridgford, Clifton, Gedling, Arnold, Wollaton, Broxtowe, Rushcliffe, Kimberley, Eastwood, and surrounding areas.',
   keywords: [
     'home care Derby city',
     'home care Ilkeston',
@@ -19,6 +19,18 @@ export const metadata: Metadata = {
     'home care Long Eaton',
     'home care Heanor',
     'domiciliary care Derbyshire',
+    'home care Nottingham',
+    'home care Hucknall',
+    'home care Beeston',
+    'home care West Bridgford',
+    'home care Clifton',
+    'home care Gedling',
+    'home care Arnold',
+    'home care Wollaton',
+    'home care Broxtowe',
+    'home care Rushcliffe',
+    'home care Kimberley',
+    'home care Eastwood',
   ],
   alternates: {
     canonical: `${SITE_CONFIG.url}/areas-we-cover`,
@@ -30,7 +42,7 @@ export default function AreasCoveredPage() {
     <>
       <PageHero
         title="Areas We Cover"
-        subtitle="We provide home care services across Derby city, Ilkeston, Belper, Ripley, Alfreton, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, Heanor, Borrowash, Draycott, and nearby communities from our base in Stapleford. If you're not sure whether we cover your area, please ask — we're always happy to help."
+        subtitle="We provide home care services across Derby city, Ilkeston, Belper, Ripley, Alfreton, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, Heanor, Borrowash, Draycott, Nottingham, Hucknall, Beeston, West Bridgford, Clifton, Gedling, Arnold, Wollaton, Broxtowe, Rushcliffe, Kimberley, Eastwood, and nearby communities from our base in Stapleford. If you're not sure whether we cover your area, please ask — we're always happy to help."
         breadcrumbs={[{ name: 'Areas We Cover', href: '/areas-we-cover' }]}
       />
 
@@ -44,7 +56,7 @@ export default function AreasCoveredPage() {
             <div className="space-y-4 text-gray-700 leading-relaxed text-center">
               <p>
                 DeltaEcho Care Ltd is based in Stapleford, Nottingham (NG9), and provides home care
-                services across Derby city, Ilkeston, Belper, Ripley, Alfreton, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, Heanor, Borrowash, Draycott, and surrounding communities.
+                services across Derby city, Ilkeston, Belper, Ripley, Alfreton, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, Heanor, Borrowash, Draycott, Nottingham, Hucknall, Beeston, West Bridgford, Clifton, Gedling, Arnold, Wollaton, Broxtowe, Rushcliffe, Kimberley, Eastwood, and surrounding communities.
               </p>
               <p>
                 Our local knowledge means we understand the communities we serve — and our proximity

@@ -91,6 +91,18 @@ export const AREAS = [
   'Heanor',
   'Borrowash',
   'Draycott',
+  'Nottingham',
+  'Hucknall',
+  'Beeston',
+  'West Bridgford',
+  'Clifton',
+  'Gedling',
+  'Arnold',
+  'Wollaton',
+  'Broxtowe',
+  'Rushcliffe',
+  'Kimberley',
+  'Eastwood',
 ]
 
 export const TRUST_ITEMS = [

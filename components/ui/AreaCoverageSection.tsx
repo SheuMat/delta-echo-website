@@ -22,8 +22,7 @@ export default function AreaCoverageSection({
               Areas We Cover
             </h2>
             <p className="section-subtitle max-w-2xl mx-auto">
-              We provide home care services across Derby city, Ilkeston, Belper, Ripley, Alfreton, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, Heanor, Borrowash, Draycott, and nearby communities, centred around
-              our base in Stapleford, NG9. Not sure if we cover your area? Just ask.
+              We provide home care services across Derbyshire, Nottingham, Ashfield, Broxtowe, Rushcliffe, and nearby communities, centred around our base in Stapleford, NG9. Not sure if we cover your area? Just ask.
             </p>
           </div>
         )}
@@ -38,7 +37,7 @@ export default function AreaCoverageSection({
             <MapPin className="mx-auto mb-3 h-10 w-10 text-teal-500" aria-hidden="true" />
             <p className="text-sm font-medium text-navy-700">Local Coverage Map</p>
             <p className="mt-1 text-xs text-gray-500">
-              Centred on Stapleford, NG9 — serving Derbyshire, Kirkby in Ashfield, Sutton in Ashfield, Long Eaton, and nearby towns
+              Centred on Stapleford, NG9 — serving Derbyshire, Nottingham, Ashfield, Broxtowe, Rushcliffe, and nearby towns
             </p>
             {/* Replace this div with a Google Maps embed or interactive map component */}
           </div>

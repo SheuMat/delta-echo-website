@@ -105,7 +105,7 @@ export default function AboutPage() {
                 { label: 'CQC Registered', sub: 'Meeting national quality standards', value: 'CQC' },
                 { label: 'Local Team', sub: 'Based in Stapleford, NG9', value: 'NG9' },
                 { label: 'Services Offered', sub: 'From personal care to live-in', value: '14+' },
-                { label: 'Areas Covered', sub: 'Across listed local areas', value: '11' },
+                { label: 'Areas Covered', sub: 'Across listed local areas', value: '23' },
               ].map((stat) => (
                 <div
                   key={stat.label}
